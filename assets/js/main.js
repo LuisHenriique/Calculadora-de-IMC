@@ -18,8 +18,15 @@ form.addEventListener('submit', function(e){
         setResultado('Peso inválido', false)
         return;
     }
-
+    if (pesoValor >600){
+        setResultado('Peso inválido', false)
+            return;
+    }
     if (!alturaValor){
+        setResultado('Altura inválida', false)
+        return;
+    }
+    if(alturaValor >3){
         setResultado('Altura inválida', false)
         return;
     }

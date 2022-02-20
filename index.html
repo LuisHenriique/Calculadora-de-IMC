@@ -13,15 +13,20 @@
       <form id="form" >
 
         <h2>Calcule seu IMC</h2> <br>
-        <label  for="peso">Peso:</label> 
-          <input type="text" id="peso" name="peso"/>
+
+        <label  for="peso">Peso <span> (ex.:65.5)</span></label> 
+          <input type="text" id="peso" name="peso" placeholder="Quilos"/>
  
 
-        <label for="altura">Altura:</label>
+        <label for="altura">Altura <span>(ex.:1.70)</span></label>
 
-          <input type="text" id="altura" name="altura">
+          <input type="text" id="altura" name="altura" placeholder="Metros">
 
-        <button>Enviar</button>
+       <div class=" buttons">
+   
+        <button type="reset">Limpar</button>
+        <button>Calcular</button>
+       </div>
       </form>
 
       <div id="resultado"></div>

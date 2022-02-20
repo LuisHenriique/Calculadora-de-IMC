@@ -31,7 +31,8 @@ margin-bottom:30px
    
 }
 section h2{
-font-size: 1.8em;
+font-size: 1.9em;
+
 }
 
 
@@ -55,6 +56,9 @@ label{
     font-size: 1.3em;
     font-weight: bold;
 }
+label span{
+    font-size: 0.8em;
+}
 input:hover{
     background-color: #ffffff;
     border: 1px solid #c9c9c9;
@@ -66,14 +70,21 @@ input:focus{
     border: 1px solid #85beff;
     background-color: #ffff;
 }
+
+.buttons{
+display: flex;
+gap: 15px;
+}
+
 button{
-    width: 100%;
+    width: 50%;
     height: 40px;
     background-color:rgb(134, 134, 255) ;
     border: 0;
     color:#fff;
     cursor: pointer;
     font-size: 1.3em;
+    margin-left: 0px;
     font-weight: bold;
     font-family: monospace;
     border-radius: 7px;
