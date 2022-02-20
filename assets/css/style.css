@@ -14,7 +14,7 @@ body{
 
 
 }
-section{
+main{
     text-align: center;
     width: 400px;
     padding: 0px;
@@ -24,13 +24,13 @@ section{
    margin-top: 50px;
    border-radius: 7px;
 }
-section p{
+main p{
     width:300px;
 margin-bottom:30px
  
    
 }
-section h2{
+main h2{
 font-size: 1.9em;
 
 }
