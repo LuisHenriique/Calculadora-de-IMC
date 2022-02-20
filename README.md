@@ -2,7 +2,7 @@
 
 <img src= "https://user-images.githubusercontent.com/96901986/154826392-76d5db3f-d16b-4539-8f49-5cc5f6f1b57b.png" width =400 />
 
-> Link do site para a visualização - https://calculeja-seu-imc.netlify.app/
+> Link do site para a visualização - https://calculadora-de-imc-2022.netlify.app/
 
 <h2>Sobre o Projeto:</h2>
  
